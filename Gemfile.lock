@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    vt100 (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (13.0.1)
+
+PLATFORMS
+  x86_64-darwin-17
+
+DEPENDENCIES
+  rake (~> 13.0)
+  vt100!
+
+BUNDLED WITH
+   2.2.8
