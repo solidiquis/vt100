@@ -21,5 +21,13 @@ module Vt100
     def cursor_home
       print "\x1B[H"
     end
+
+    def cursor_hide
+      print "\x1B[?25l"
+    end
+
+    def cursor_show
+      print "\x1B[?25h"
+    end
   end
 end
